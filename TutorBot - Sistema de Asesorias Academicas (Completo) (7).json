@@ -30,10 +30,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        12704,
-        7312
+        9632,
+        10960
       ],
-      "id": "76f96631-5592-463b-b09a-fa3556a9c2dd",
+      "id": "22dbdc68-257b-408e-9936-d544a501eefe",
       "name": "Preparar Datos Entrada"
     },
     {
@@ -57,10 +57,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        13072,
-        7312
+        10000,
+        10960
       ],
-      "id": "0fc79910-9ff7-4735-9650-7a8b16f7e8f9",
+      "id": "536193cb-458a-43bb-bd35-87e23dde8d88",
       "name": "Leer Sesiones",
       "alwaysOutputData": true,
       "credentials": {
@@ -97,10 +97,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
       "position": [
-        13616,
-        7312
+        10544,
+        10960
       ],
-      "id": "0dbabf0c-bfc4-47e4-9b65-082e6b1e2058",
+      "id": "b6cfd07e-f05f-4343-9ade-4c2bf79b7992",
       "name": "Existe Sesion?"
     },
     {
@@ -261,10 +261,10 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3,
       "position": [
-        14032,
-        7312
+        10960,
+        10960
       ],
-      "id": "434751bc-96af-4a33-985a-a55776831062",
+      "id": "9a2894c9-8940-45ae-b232-b616327566b9",
       "name": "Router Paso"
     },
     {
@@ -288,10 +288,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14272,
-        6976
+        11200,
+        10624
       ],
-      "id": "ba151101-7841-4408-b70a-fb477fab2126",
+      "id": "26955958-a6a0-4027-9633-e623cc1c1b91",
       "name": "Leer Tutores (menu)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -307,10 +307,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        14512,
-        6976
+        11440,
+        10624
       ],
-      "id": "6d652822-d4e1-4d5f-8240-713fdbfddffc",
+      "id": "0463008d-3908-4cf3-a29d-d4c49d203dfc",
       "name": "Listar Materias Unicas"
     },
     {
@@ -322,10 +322,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14720,
-        6976
+        11648,
+        10624
       ],
-      "id": "e327c01d-e6a2-4994-a8c1-12fe462bba1f",
+      "id": "c93a9e6e-0f3b-4c55-afc8-d4e5fc1921db",
       "name": "Enviar Menu Materias",
       "webhookId": "da426d2b-38d4-43a5-8996-6ad3a1ce4be7",
       "credentials": {
@@ -411,10 +411,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14928,
-        6976
+        11856,
+        10624
       ],
-      "id": "37747d61-e0a7-448f-8e8b-5b4c54595a76",
+      "id": "1f4bba70-0d64-48ed-a983-1a9e64252a44",
       "name": "Guardar Sesion Menu",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -430,10 +430,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        14288,
-        7328
+        11216,
+        10976
       ],
-      "id": "094d5894-5946-48f8-aa09-18456ddc0b36",
+      "id": "1b55abee-cc3d-4f08-ab3b-247cfb716dc0",
       "name": "Guardar Materia Elegida"
     },
     {
@@ -463,10 +463,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
       "position": [
-        14496,
-        7328
+        11424,
+        10976
       ],
-      "id": "636b2f26-0d45-4969-aff3-c35df223b627",
+      "id": "e0521b9b-6ebc-4599-9c17-b26592da4e10",
       "name": "Materia Valida?"
     },
     {
@@ -545,10 +545,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14720,
-        7184
+        11648,
+        10832
       ],
-      "id": "0b528511-da37-45e3-90dd-22af349306a2",
+      "id": "6be523c5-4385-43f3-b25d-1904236457ec",
       "name": "Guardar Sesion Materia",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -566,10 +566,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14928,
-        7184
+        11856,
+        10832
       ],
-      "id": "273f96d4-88a9-4d95-87af-b682d1304cc4",
+      "id": "b2b295af-3321-486d-87f5-b038d1332ef2",
       "name": "Pedir Fecha",
       "webhookId": "f9d193f4-1b21-4be1-9dd6-0ad82ebcf223",
       "credentials": {
@@ -588,10 +588,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14928,
-        7344
+        11856,
+        10992
       ],
-      "id": "9a747e6d-f9bc-4541-87c8-3c425b8b13ba",
+      "id": "1a47b853-33bb-488a-b976-b953dbe063f3",
       "name": "Opcion Materia Invalida",
       "webhookId": "563ab73b-5439-41e1-932c-4896d01110c6",
       "credentials": {
@@ -608,10 +608,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        14288,
-        7536
+        11216,
+        11184
       ],
-      "id": "ecd24c32-460f-4f9e-b481-f4df28c9f47a",
+      "id": "3f94a366-f199-42c5-b9d6-ba71d88b715d",
       "name": "Validar Fecha"
     },
     {
@@ -641,10 +641,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
       "position": [
-        14512,
-        7536
+        11440,
+        11184
       ],
-      "id": "5effe075-0eb1-4fb1-8e35-e8ec9fdcb6a0",
+      "id": "7535390e-2562-469e-9330-8e0e33b4bdc3",
       "name": "Fecha Valida?"
     },
     {
@@ -656,10 +656,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14736,
-        7600
+        11664,
+        11248
       ],
-      "id": "fc40e54f-34b1-41db-8650-ffde890820fa",
+      "id": "ff63ac66-07bd-4529-9142-b1912c6b8f99",
       "name": "Fecha Invalida",
       "webhookId": "c3f6eae1-2c68-4336-814c-3fb7bcc67a44",
       "credentials": {
@@ -678,10 +678,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14288,
-        7712
+        11216,
+        11360
       ],
-      "id": "16d4673b-eca2-4a5f-9cfa-d384313c6f77",
+      "id": "1a04d651-2e42-48fd-a44b-82112f2edab6",
       "name": "Paso Desconocido",
       "webhookId": "6ffdd17d-867d-4a2a-892b-01d1786f8aa9",
       "credentials": {
@@ -698,10 +698,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        13408,
-        7312
+        10336,
+        10960
       ],
-      "id": "5cd900a7-4c74-45b8-bf7a-ee7b05270f27",
+      "id": "6815a73e-6df6-452d-a397-0c6e72b2a4b7",
       "name": "Buscar Mi Sesion"
     },
     {
@@ -780,10 +780,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14720,
-        7424
+        11648,
+        11072
       ],
-      "id": "161de9bc-1f50-4aea-9987-6f8c2d314a02",
+      "id": "d776e40e-5ce7-4249-b72d-c32bdee35e1e",
       "name": "Guardar Sesion Fecha (buscando_tutor)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -799,10 +799,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        14928,
-        7520
+        11856,
+        11168
       ],
-      "id": "9aeee7cd-8c88-4bbd-9ad8-d922024a2a5b",
+      "id": "9973c0aa-eb45-4179-88c3-911c96a61238",
       "name": "Preparar Datos Busqueda"
     },
     {
@@ -910,10 +910,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15136,
-        7520
+        12064,
+        11168
       ],
-      "id": "3e364db3-22bb-41bf-839b-6eb503b1a4e2",
+      "id": "09d56dad-bee3-4d9e-a8f5-41cf63b2eed3",
       "name": "Registrar Solicitud (Solicitada)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -943,10 +943,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        13344,
-        7120
+        10272,
+        10768
       ],
-      "id": "2cbd5353-42fa-4d86-9dce-aa1d74a31967",
+      "id": "db4423b1-7f13-4039-a3e4-56e112372905",
       "name": "Leer Tutores",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -976,10 +976,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        13616,
-        7120
+        10544,
+        10768
       ],
-      "id": "55d335d7-332c-4952-8dd8-b0628c402f2d",
+      "id": "3e283efd-263c-4105-a80b-f5af1639bf64",
       "name": "Leer Disponibilidad",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -996,10 +996,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        13824,
-        7120
+        10752,
+        10768
       ],
-      "id": "031a81ce-1a21-4cd7-8645-6270f5fae9cf",
+      "id": "7c602512-edd0-41f9-bcc0-4fb202af912c",
       "name": "Match Tutor Disponible"
     },
     {
@@ -1029,10 +1029,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        14000,
-        7120
+        10928,
+        10768
       ],
-      "id": "319ca897-399a-4158-b76c-3afde814d887",
+      "id": "8a883f73-9a38-4933-8475-1e7583f0e5e1",
       "name": "Tutor Encontrado?"
     },
     {
@@ -1044,10 +1044,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14304,
-        6800
+        11232,
+        10448
       ],
-      "id": "581a74b3-e791-4ee9-9f75-e13f043e35cf",
+      "id": "f4ae27b3-83fe-4a55-ba7c-33beeb8359f4",
       "name": "Enviar Propuesta",
       "webhookId": "52ba93fb-b788-42cf-a5d4-feb670c9c808",
       "credentials": {
@@ -1132,10 +1132,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14544,
-        6800
+        11472,
+        10448
       ],
-      "id": "e09e70f9-e985-4ec2-aae9-59a41d11dce6",
+      "id": "b96715d0-3e2b-44b3-afba-07e51107eda8",
       "name": "Guardar Sesion Propuesta",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -1262,10 +1262,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15040,
-        6800
+        11968,
+        10448
       ],
-      "id": "046ea926-e5b4-4dde-8b02-0851b6266696",
+      "id": "d70ae3b5-694d-4922-9108-bbb00b47a796",
       "name": "Actualizar Tutoria (Asignada)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -1283,10 +1283,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14272,
-        7136
+        11200,
+        10784
       ],
-      "id": "95728d5c-83ce-46b0-9672-af922b175215",
+      "id": "1afe3488-fd30-452b-92f6-744f5471162c",
       "name": "Sin Tutores Disponibles",
       "webhookId": "06d445c3-ff52-4b89-9e8a-d3a709d882e5",
       "credentials": {
@@ -1412,10 +1412,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15280,
-        7088
+        12208,
+        10736
       ],
-      "id": "ca396ccc-2a37-475b-b9e8-9bd52cd2b5ef",
+      "id": "33f39408-7fd5-4266-81ac-631105472b28",
       "name": "Actualizar Tutoria (Sin Tutor)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -1528,10 +1528,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15664,
-        7088
+        12592,
+        10736
       ],
-      "id": "108edc7c-eba6-4ca2-9c60-abe74bdfd4aa",
+      "id": "4a8aa7a9-3f2a-420e-82f2-70fb5e5bcc2a",
       "name": "Reset Sesion (Sin Tutor)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -1547,10 +1547,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        14304,
-        7920
+        11232,
+        11568
       ],
-      "id": "95b11ba2-5dbf-4cd1-9044-97dfa2bed875",
+      "id": "c167d9e3-ecc9-4f00-8eea-9fe9bf87c7e5",
       "name": "Leer Confirmacion"
     },
     {
@@ -1580,10 +1580,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.3,
       "position": [
-        14480,
-        7920
+        11408,
+        11568
       ],
-      "id": "375ff43e-af98-43b3-bc10-05498a5b6e91",
+      "id": "054fb622-f951-4208-b3ec-2ee26828a538",
       "name": "Confirma?"
     },
     {
@@ -1702,10 +1702,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14608,
-        7760
+        11536,
+        11408
       ],
-      "id": "4e43db30-6daa-4cfd-8c5f-54d966eee474",
+      "id": "2d7547b5-c3b1-4921-8f99-69f95960916e",
       "name": "Actualizar Tutoria (Confirmada)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -1804,10 +1804,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14864,
-        7760
+        11792,
+        11408
       ],
-      "id": "d5973c09-6191-430d-8ed9-2457b54e2495",
+      "id": "026ef54d-2584-47df-97e3-ec8e9b69293b",
       "name": "Actualizar Disponibilidad Ocupado",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -1825,10 +1825,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        15104,
-        7760
+        12032,
+        11408
       ],
-      "id": "82470150-0b5b-49a6-8b99-ec8b67197042",
+      "id": "6725abc9-31f6-4ca9-b4b9-423c891fedc5",
       "name": "Confirmar Estudiante",
       "webhookId": "a95cbe54-94b3-47e7-ba9b-22ac28ed8cdd",
       "credentials": {
@@ -1847,10 +1847,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        15328,
-        7760
+        12256,
+        11408
       ],
-      "id": "dba7a2af-83cb-462c-9166-87f3c1292c9f",
+      "id": "f633b580-edd0-4fe0-a4ed-9cf900df409c",
       "name": "Notificar Tutor",
       "webhookId": "97cb6a92-abd8-490f-9f0a-3be409983d2a",
       "credentials": {
@@ -1935,10 +1935,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15536,
-        7760
+        12464,
+        11408
       ],
-      "id": "27493515-0829-4445-a969-dd2233b10a58",
+      "id": "74a2af7f-b93c-49e6-a75a-3ad1169075ce",
       "name": "Reset Sesion B",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -1956,10 +1956,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14704,
-        7936
+        11632,
+        11584
       ],
-      "id": "cd93297a-178a-4970-bbb6-aa7c57e2dd87",
+      "id": "7c14f90d-e706-4a4a-98d3-7edee67db83e",
       "name": "Cancelado",
       "webhookId": "fce0e8f5-682e-420c-839a-c386976fca3c",
       "credentials": {
@@ -2085,10 +2085,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14928,
-        7936
+        11856,
+        11584
       ],
-      "id": "7d4a6cbe-63db-41f5-8f1a-698fd8465a98",
+      "id": "05bb9592-ea7b-42f8-b1e3-36598dcf489a",
       "name": "Actualizar Tutoria (Rechazada)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2203,10 +2203,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15136,
-        7936
+        12064,
+        11584
       ],
-      "id": "03c9b5ea-0dc9-4764-a6c1-fc761de338a8",
+      "id": "9cc11ed5-2d56-4122-ab0d-62647a15787b",
       "name": "Liberar Disponibilidad (Rechazada)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2290,10 +2290,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15344,
-        7936
+        12272,
+        11584
       ],
-      "id": "0e1b387e-25d1-440d-8bc4-0a2e5254a929",
+      "id": "d19e776e-2b42-4dee-a874-c5ea266dfa42",
       "name": "Reset Sesion C",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2323,10 +2323,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14304,
-        8096
+        11232,
+        11744
       ],
-      "id": "47044662-a5e8-48f7-ae1f-b5ce92337cc4",
+      "id": "e3bb5928-aef4-4670-9cb9-064cae5b8544",
       "name": "Leer Tutorias (Consultar)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2342,10 +2342,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        14512,
-        8096
+        11440,
+        11744
       ],
-      "id": "6ab9d66b-58de-4759-90c9-e062cc7954ff",
+      "id": "d0a64531-bff6-4e4b-b092-0c1a5de7bcbb",
       "name": "Formatear Mis Tutorias"
     },
     {
@@ -2357,10 +2357,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14704,
-        8096
+        11632,
+        11744
       ],
-      "id": "6b2b2841-103e-473d-ac6f-e4c633391e54",
+      "id": "0eaef8f5-9719-4af0-90a9-1e1044490442",
       "name": "Enviar Mis Tutorias",
       "webhookId": "308a3203-7e38-444a-84d4-0baed4401700",
       "credentials": {
@@ -2474,10 +2474,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14928,
-        8096
+        11856,
+        11744
       ],
-      "id": "01b38733-9df1-4ca6-848c-d5c481f00613",
+      "id": "3172ec27-1229-4add-bcf3-d55b43aba31a",
       "name": "Reset Sesion (Consultar)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2507,10 +2507,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14224,
-        8288
+        11152,
+        11936
       ],
-      "id": "f9dcd96f-e045-4667-a0da-5bc87cbd3f47",
+      "id": "1e6b45c5-dfb5-4e79-9e4d-17e597e5afa1",
       "name": "Leer Tutorias (Cancelar)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2526,10 +2526,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        14448,
-        8288
+        11376,
+        11936
       ],
-      "id": "f4c93890-b954-41be-9cfe-5593bf73c3e6",
+      "id": "ea6b7652-45a1-4963-a588-7781bb749e03",
       "name": "Buscar Tutoria Activa"
     },
     {
@@ -2559,10 +2559,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2,
       "position": [
-        14704,
-        8288
+        11632,
+        11936
       ],
-      "id": "90d0aee6-35ea-4590-95af-4740c19c5958",
+      "id": "740e5ebb-7825-4fc5-ba4a-daaf4910e0c3",
       "name": "Hay Tutoria Activa?"
     },
     {
@@ -2681,10 +2681,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14912,
-        8240
+        11840,
+        11888
       ],
-      "id": "8a58dbf8-ffe4-405e-b21a-b675ea90cba0",
+      "id": "86f0ddde-b126-4be6-8e75-dec277019939",
       "name": "Cancelar Tutoria (Sheet)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2799,10 +2799,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15136,
-        8240
+        12064,
+        11936
       ],
-      "id": "2f86bc8c-eb37-413f-9752-d33ff562871e",
+      "id": "3e10e487-6180-46f8-b343-559063798770",
       "name": "Liberar Disponibilidad (Cancelar)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2820,10 +2820,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        15344,
-        8240
+        12272,
+        11888
       ],
-      "id": "a064b2e5-6272-41b1-9863-5d178c71ef8b",
+      "id": "c58a59c3-c2cc-4b27-9c4c-f46f24648e82",
       "name": "Confirmar Cancelacion",
       "webhookId": "0dab2dff-a50f-4cbb-98c6-bf2a6d372608",
       "credentials": {
@@ -2842,10 +2842,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        14912,
-        8416
+        11840,
+        12064
       ],
-      "id": "10c2c870-52bc-4355-8537-77fe4f0dd589",
+      "id": "5096255c-82d8-435f-bfde-deca5a912a69",
       "name": "Sin Tutoria Para Cancelar",
       "webhookId": "463fb60e-b1aa-4e61-8588-b60b18224a89",
       "credentials": {
@@ -2959,10 +2959,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15552,
-        8416
+        12480,
+        12064
       ],
-      "id": "3ef1887d-e35d-4406-afd9-2b9d56112a0e",
+      "id": "b26888dd-6117-47ed-9d16-d22fcb913cb0",
       "name": "Reset Sesion (Cancelar)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -2992,10 +2992,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        12992,
-        8416
+        9920,
+        12064
       ],
-      "id": "dccbb7cc-3b36-4161-bc15-dfe997b0bff0",
+      "id": "824972f7-d645-4fa0-9875-7965e93ab9c0",
       "name": "Leer Tutorias (Job Diario)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3011,10 +3011,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        13200,
-        8416
+        10128,
+        12064
       ],
-      "id": "7b66d2ee-dc87-46d9-88cc-e020b6ba0ee2",
+      "id": "0832ab34-981a-4d10-8523-3adec030c761",
       "name": "Filtrar Tutorias A Finalizar"
     },
     {
@@ -3133,10 +3133,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        13408,
-        8416
+        10336,
+        12064
       ],
-      "id": "63855689-0d91-4ce6-868a-57a9c0e9ff4f",
+      "id": "7dc11ff3-0818-4d84-8e78-1a8b171fd23c",
       "name": "Marcar Finalizadas",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3152,10 +3152,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        13408,
-        8576
+        10336,
+        12224
       ],
-      "id": "4aa6ff79-2077-4f9d-afa0-94806fd4e2d3",
+      "id": "b4839166-6cbd-41ba-8dba-d4891cd06225",
       "name": "Generar Reporte de Actividad"
     },
     {
@@ -3268,10 +3268,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        13616,
-        8576
+        10544,
+        12224
       ],
-      "id": "512ab584-e1a3-4fe4-9fec-d03a549b2a37",
+      "id": "76c423b8-3c53-40c3-9e69-a22a2a2ca57f",
       "name": "Guardar Reporte (hoja Reportes)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3301,10 +3301,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        12992,
-        8768
+        9920,
+        12416
       ],
-      "id": "9eb7fd93-9eed-4125-b9eb-5de2796341f9",
+      "id": "48be01c6-bf78-439b-a764-c1cae82f2c9e",
       "name": "Leer Tutorias (Recordatorios)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3334,10 +3334,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        13200,
-        8768
+        10128,
+        12416
       ],
-      "id": "7b6dba38-e58e-4ef2-8c3b-10baa7ebd149",
+      "id": "cf021b67-a47e-4c15-806e-7586ac6a2c16",
       "name": "Leer Tutores (Recordatorios)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3353,10 +3353,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        13408,
-        8768
+        10336,
+        12416
       ],
-      "id": "39924477-994f-43e5-add3-b730cde32b40",
+      "id": "c0f5c7fd-5357-43d0-b055-561603bf3e58",
       "name": "Preparar Recordatorios"
     },
     {
@@ -3386,10 +3386,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        13616,
-        8768
+        10544,
+        12416
       ],
-      "id": "67130900-46d3-4154-968f-252be1f33412",
+      "id": "129f5d65-638b-45ed-a874-c25ef0e437cc",
       "name": "Es Recordatorio Estudiante?"
     },
     {
@@ -3401,10 +3401,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        13824,
-        8688
+        10752,
+        12336
       ],
-      "id": "4c554204-225a-45a1-8500-43fa828d7fcf",
+      "id": "b212a4cb-70da-46ed-a447-4e0a2e0bb68d",
       "name": "Recordar Estudiante",
       "webhookId": "a76b24c9-3645-4f3f-aaf3-b849377c095d",
       "credentials": {
@@ -3423,10 +3423,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        13824,
-        8864
+        10752,
+        12512
       ],
-      "id": "82abd557-34f8-4347-a856-e23ee01c598b",
+      "id": "1ea5f913-a71e-44d5-b1b7-6b4520e0d3ec",
       "name": "Recordar Tutor",
       "webhookId": "efc8e613-331f-4994-82a0-44f9244cee3a",
       "credentials": {
@@ -3450,10 +3450,10 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
-        12048,
-        7312
+        8976,
+        10960
       ],
-      "id": "74fc8377-5f65-4a9b-a084-b73ebc684842",
+      "id": "dc901078-02ce-4dc5-b46f-30477c24adb0",
       "name": "Trigger Polling (cada 5s)"
     },
     {
@@ -3473,10 +3473,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        12288,
-        7312
+        9216,
+        10960
       ],
-      "id": "150c7eba-5136-4bac-85e4-fa2131d50909",
+      "id": "b4ad612e-498c-4b18-b7ea-202507787e81",
       "name": "Config Bot Token"
     },
     {
@@ -3486,10 +3486,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        12480,
-        7312
+        9408,
+        10960
       ],
-      "id": "ae0b30c0-c8bb-4c93-9af5-03d8e5fda8b1",
+      "id": "6e4f7b59-621b-4839-b3f8-20b9182edd5d",
       "name": "Preparar Peticion Updates"
     },
     {
@@ -3500,10 +3500,10 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        12896,
-        7312
+        9824,
+        10960
       ],
-      "id": "491ea127-ff67-4042-b91e-558e7c6c116d",
+      "id": "876185b5-f05f-438b-a4f3-c6bf680fd22f",
       "name": "Obtener Updates Telegram",
       "continueOnFail": true,
       "onError": "continueRegularOutput"
@@ -3515,10 +3515,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        13248,
-        7312
+        10176,
+        10960
       ],
-      "id": "7e2922f9-f4d4-4901-b5db-b819d1d639f9",
+      "id": "509ee4f1-d43c-4286-81bd-f6256ccb0dba",
       "name": "Procesar Updates"
     },
     {
@@ -3534,10 +3534,10 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
-        12784,
-        8768
+        9712,
+        12416
       ],
-      "id": "a7fae8fe-a963-4d39-877a-857aedb1507e",
+      "id": "d3bd4573-a4bb-4bd9-87fe-04d298590f77",
       "name": "Trigger Recordatorios"
     },
     {
@@ -3559,10 +3559,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        14768,
-        6656
+        11696,
+        10304
       ],
-      "id": "f149d292-9726-4f43-9d7f-838a9bafc468",
+      "id": "f5b38a81-1bbf-43fa-8409-f28ce8e453a8",
       "name": "Leer Offset",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3598,10 +3598,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        15648,
-        6976
+        12576,
+        10624
       ],
-      "id": "35d91456-f7cc-43c6-bfb5-cdc324a0ee66",
+      "id": "a2ebc413-d573-4ecd-a28d-62d5361e1cb5",
       "name": "Avanzar Offset?"
     },
     {
@@ -3635,10 +3635,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        15872,
-        6928
+        12800,
+        10576
       ],
-      "id": "e0513b5e-48f9-423f-a603-029b6fcba5de",
+      "id": "e9b89792-49bf-438a-a28e-7998f4954876",
       "name": "Guardar Offset",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3674,10 +3674,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        16096,
-        6928
+        13024,
+        10576
       ],
-      "id": "80db1c61-74ed-44b9-98ae-afaf31231a0d",
+      "id": "374d8367-574b-4a7e-ae30-ae2f3f5a0b82",
       "name": "Hay Mensaje Nuevo?"
     },
     {
@@ -3701,10 +3701,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        16512,
-        6816
+        13440,
+        10464
       ],
-      "id": "d911c52e-0fe3-4243-9688-681e14f40d1e",
+      "id": "c70f5c5d-41d4-412f-8154-065e9961aa45",
       "name": "Leer Tutores (Horarios)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3734,10 +3734,10 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.7,
       "position": [
-        16720,
-        6816
+        13648,
+        10464
       ],
-      "id": "13237a00-e69a-49c0-a290-97a9d69755a8",
+      "id": "d604f4ca-34bb-4e52-9854-2e8729c3cc0e",
       "name": "Leer Disponibilidad (Horarios)",
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -3753,10 +3753,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        16928,
-        6816
+        13856,
+        10464
       ],
-      "id": "52951a01-9731-4cbe-b393-3a0e8f9cd745",
+      "id": "7427bb79-4be2-4311-9d20-eee33b9407e3",
       "name": "Formatear Horarios Disponibles"
     },
     {
@@ -3768,10 +3768,10 @@
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
       "position": [
-        17136,
-        6816
+        14064,
+        10464
       ],
-      "id": "14fb43f1-d6bd-4d83-a7c7-98c197ce4987",
+      "id": "dfcbcaa1-0139-4347-bb41-71a5e40f21a4",
       "name": "Enviar Horarios Disponibles",
       "webhookId": "271b4912-0824-47c4-bfd5-c95d86c947cf",
       "credentials": {
@@ -3794,11 +3794,239 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
-        12784,
-        8416
+        9712,
+        12064
       ],
-      "id": "4c0f88e8-1b6f-4a1a-b980-51bf3b8c4eab",
+      "id": "8e2eb88c-4807-4469-9c00-a1e9c16d48d2",
       "name": "Trigger Diario"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "1pmz3UwQSOmPZssZOFpx3-R3m7_XXLMIQha1fzln2Nww",
+          "mode": "list",
+          "cachedResultName": "TutorBot_DB",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1pmz3UwQSOmPZssZOFpx3-R3m7_XXLMIQha1fzln2Nww/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Disponibilidad",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1pmz3UwQSOmPZssZOFpx3-R3m7_XXLMIQha1fzln2Nww/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        12352,
+        11216
+      ],
+      "id": "c45ef201-bba4-4e71-bafb-307096eb3a1b",
+      "name": "Leer Disponibilidad (Post-Asignacion)",
+      "alwaysOutputData": true,
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "tugFHzrti7hm2mtW",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "// Cuenta cuantas franjas quedan 'Libre' para el tutor que se acaba de asignar,\n// justo despues de descontar el slot recien ocupado.\nconst idTutor = $('Leer Confirmacion').first().json.id_tutor;\nconst tutorNombre = $('Leer Confirmacion').first().json.tutor_nombre;\n\nfunction normalizar(txt) {\n  return String(txt || '')\n    .normalize('NFD').replace(/[\\u0300-\\u036f]/g, '')\n    .trim()\n    .toLowerCase();\n}\n\nconst disponibilidad = $input.all().map(i => i.json);\n\nconst franjasLibres = disponibilidad.filter(d =>\n  d &&\n  d.id_tutor === idTutor &&\n  normalizar(d.estado) === 'libre'\n).length;\n\nreturn [{\n  json: {\n    id_tutor: idTutor,\n    tutor_nombre: tutorNombre,\n    franjas_libres: franjasLibres\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        12064,
+        11776
+      ],
+      "id": "22d9cb25-7c67-4197-ade5-59ccb47e0ba0",
+      "name": "Contar Franjas Libres Tutor"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "a44c2d6e-ec3a-41cb-ad08-f951611b902f",
+              "leftValue": "={{ $json.franjas_libres }}",
+              "rightValue": 1,
+              "operator": {
+                "type": "number",
+                "operation": "lte"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        12256,
+        11776
+      ],
+      "id": "e0fd1b0a-6a6b-4075-9230-aefbdea94e35",
+      "name": "Disponibilidad Critica?"
+    },
+    {
+      "parameters": {
+        "chatId": "6541674925",
+        "text": "=⚠️ ALERTA DE DISPONIBILIDAD: El tutor {{ $json.tutor_nombre }} solo tiene {{ $json.franjas_libres }} franja(s) libre(s). Favor gestionar refuerzo.",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        12496,
+        11712
+      ],
+      "id": "f878ade5-e4a6-4ef9-9c57-dab783590544",
+      "name": "Alertar Coordinacion Disponibilidad",
+      "webhookId": "1ff46c18-4664-464c-93e4-f6b1db662304",
+      "credentials": {
+        "telegramApi": {
+          "id": "tXiWNI4wJ6A02qLd",
+          "name": "Telegram account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 1
+          },
+          "conditions": [
+            {
+              "id": "0ab4bae4-186c-4a9b-aed6-e4b79290b579",
+              "leftValue": "={{ $('Contar Franjas Libres Tutor').first().json.franjas_libres }}",
+              "rightValue": 0,
+              "operator": {
+                "type": "number",
+                "operation": "lte"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [
+        12736,
+        11712
+      ],
+      "id": "4423d3a8-237e-4fbd-97a8-8ab1e4765528",
+      "name": "Tutor Sin Disponibilidad (0)?"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1pmz3UwQSOmPZssZOFpx3-R3m7_XXLMIQha1fzln2Nww",
+          "mode": "list",
+          "cachedResultName": "TutorBot_DB",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1pmz3UwQSOmPZssZOFpx3-R3m7_XXLMIQha1fzln2Nww/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 29325785,
+          "mode": "list",
+          "cachedResultName": "Tutores",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1pmz3UwQSOmPZssZOFpx3-R3m7_XXLMIQha1fzln2Nww/edit#gid=29325785"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "id_tutor": "={{ $('Contar Franjas Libres Tutor').first().json.id_tutor }}",
+            "estado": "Inactivo"
+          },
+          "matchingColumns": [
+            "id_tutor"
+          ],
+          "schema": [
+            {
+              "id": "id_tutor",
+              "displayName": "id_tutor",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "nombre",
+              "displayName": "nombre",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "especialidad_materias",
+              "displayName": "especialidad_materias",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "estado",
+              "displayName": "estado",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "telegram_chat_id",
+              "displayName": "telegram_chat_id",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.7,
+      "position": [
+        12976,
+        11712
+      ],
+      "id": "c101d516-b3f5-43f5-a2f1-f88091d4a6b7",
+      "name": "Actualizar Estado Tutor (Inactivo)",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "tugFHzrti7hm2mtW",
+          "name": "Google Sheets account"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -4182,6 +4410,11 @@
         [
           {
             "node": "Confirmar Estudiante",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "Leer Disponibilidad (Post-Asignacion)",
             "type": "main",
             "index": 0
           }
@@ -4613,6 +4846,61 @@
           }
         ]
       ]
+    },
+    "Leer Disponibilidad (Post-Asignacion)": {
+      "main": [
+        [
+          {
+            "node": "Contar Franjas Libres Tutor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Contar Franjas Libres Tutor": {
+      "main": [
+        [
+          {
+            "node": "Disponibilidad Critica?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Disponibilidad Critica?": {
+      "main": [
+        [
+          {
+            "node": "Alertar Coordinacion Disponibilidad",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Alertar Coordinacion Disponibilidad": {
+      "main": [
+        [
+          {
+            "node": "Tutor Sin Disponibilidad (0)?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Tutor Sin Disponibilidad (0)?": {
+      "main": [
+        [
+          {
+            "node": "Actualizar Estado Tutor (Inactivo)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "active": true,
@@ -4621,7 +4909,7 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "4213d227-f975-486a-a9ae-22239baf9c6f",
+  "versionId": "c7a9ffb1-d83a-4263-9965-4c972d0c4593",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "d6829cda617c88adaeeee3bd25ffc61f23a1fb5dc588d2faac2633401ab300ac"
