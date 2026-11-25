@@ -190,7 +190,7 @@ Actualizar Disponibilidad Ocupado
 
 - **`Contar Franjas Libres Tutor`** (Code): relee toda la hoja `DISPONIBILIDAD` y cuenta cuántas franjas siguen en `Libre` para el `id_tutor` de la tutoría recién confirmada.
 - **`Alertar Coordinacion Disponibilidad`** (Telegram): si quedan `1` o `0` franjas libres, envía a la coordinación el mensaje:
-  `⚠️ ALERTA DE DISPONIBILIDAD: El tutor [Nombre] solo tiene [Cantidad] franja(s) libre(s). Favor gestionar refuerzo.`
+  `ALERTA DE DISPONIBILIDAD: El tutor [Nombre] solo tiene [Cantidad] franja(s) libre(s). Favor gestionar refuerzo.`
 - **`Actualizar Estado Tutor (Inactivo)`** (Google Sheets): si el tutor llega a `0` franjas libres, además de la alerta, su fila en `TUTORES` se actualiza automáticamente a `estado = Inactivo`, para que el motor de matching (`Match Tutor Disponible`, que filtra por `estado === 'Activo'`) deje de proponerlo hasta que se le agreguen nuevos horarios.
 
 > **Nota de implementación:** las referencias a `franjas_libres` e `id_tutor` en los nodos posteriores al envío de Telegram se leen explícitamente con `$('Contar Franjas Libres Tutor').first().json...` y no con `$json`, porque el nodo de Telegram reemplaza el `$json` de entrada por la respuesta de la API de Telegram (mensaje enviado). Usar `$json` directamente ahí rompía la condición y el `Actualizar Estado Tutor (Inactivo)` nunca se ejecutaba.
